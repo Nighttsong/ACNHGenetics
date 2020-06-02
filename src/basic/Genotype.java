@@ -191,16 +191,9 @@ public class Genotype {
 		return representation;
 	}
 
-	/*
-	 * TO DO: add a method that gets the number of genes in a Genotype ADD TESTS
-	 */
 	public int getNumberOfGenes() {
 		return genes.length;
 	}
-
-	/*
-	 * TO DO: add an equals method that can compare Genotypes
-	 */
 
 	@Override
 	public boolean equals(Object compareTo) {

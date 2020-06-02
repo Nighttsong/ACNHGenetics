@@ -1002,7 +1002,7 @@ class GenotypeTest {
 						assertTrue(genotypeTester2.equals(genotypeTester));
 					}, () -> {
 						genotypeTester = new Genotype(new int[] { 0, 2, 1, 1 });
-						Genotype genotypeTester2 = new Genotype("ooMMOoYy");
+						Genotype genotypeTester2 = new Genotype("ooMMOoYy ");
 						assertTrue(genotypeTester.equals(genotypeTester2));
 						assertTrue(genotypeTester2.equals(genotypeTester));
 					}, () -> {
